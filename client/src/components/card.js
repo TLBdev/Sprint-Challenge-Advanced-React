@@ -2,7 +2,7 @@ import React from 'react'
 
 
 function Card(props) {
-    console.log(props)
+
     return (
         <div className='Card'>
             <h1>{`Name: ${props.data.name}`}</h1>
